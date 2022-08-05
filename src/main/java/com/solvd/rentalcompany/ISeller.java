@@ -10,3 +10,4 @@ public interface ISeller {
     boolean deleteItems(Buyable item);
 
 }
+//Implement with class Buyable and class Counter

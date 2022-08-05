@@ -1,10 +1,24 @@
 package main.java.com.solvd.rentalcompany;
 
-public class ElectricVehicles {
+public class ElectricVehicles extends Vehicle{
 
-    Double ElectricVehiclePPD = 249.99;
+    static double ElectricVehiclePPD = 199.99;
+
+    //fix equals, hashcode, and to string (understand better)
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

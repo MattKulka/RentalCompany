@@ -6,3 +6,5 @@ public abstract class Buyable{
 
 
 }
+
+//Implement Buyable with Counter

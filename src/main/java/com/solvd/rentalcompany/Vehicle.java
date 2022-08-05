@@ -1,4 +1,13 @@
 package main.java.com.solvd.rentalcompany;
 
-public class Renter {
+public abstract class Vehicle{
+
+    double VehiclePPD;
+
+
+
+
 }
+
+
+//Implement Vehicle Abstract class with Gas and electric vehicle classes

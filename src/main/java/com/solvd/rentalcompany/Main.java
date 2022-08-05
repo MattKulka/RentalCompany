@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main extends Garage{
+public class Main{
     public static void main(String[] args){
 
         Scanner keyboard = new Scanner(System.in);
 
         Calender calender = new Calender(8,2,2022);
-        Renter renter = new Renter();
+        Garage garage = new Garage();
 
 
         System.out.println("Welcome to Matts Super Awesome Vehicle Rental");
@@ -27,7 +27,7 @@ public class Main extends Garage{
 
         if (value==1){
             System.out.println("Here is a list of our current gas vehicles that you can choose from");
-            System.out.println(Arrays.toString(GasVehicles));
+            System.out.println(Arrays.toString(garage.GasVehicles));
             System.out.println("Which vehicle would you like?");
 
 
@@ -36,42 +36,53 @@ public class Main extends Garage{
             switch(gasChoice){
                 case 1:
                     System.out.println(" Land Rover Defender ");
+                    Counter.Addon();
                     break;
+
 
                 case 2:
                     System.out.println(" Land Rover Sport ");
+                    Counter.Addon();
                     break;
 
                 case 3:
                     System.out.println(" Jeep Wrangler ");
+                    Counter.Addon();
                     break;
 
                 case 4:
                     System.out.println(" Jeep Compass ");
+                    Counter.Addon();
                     break;
 
                 case 5:
                     System.out.println(" Jeep Wagoneer ");
+                    Counter.Addon();
                     break;
 
                 case 6:
                     System.out.println(" Jeep Gladiator ");
+                    Counter.Addon();
                     break;
 
                 case 7:
                     System.out.println(" Ford Bronco ");
+                    Counter.Addon();
                     break;
 
                 case 8:
                     System.out.println(" Ford Ranger ");
+                    Counter.Addon();
                     break;
 
                 case 9:
                     System.out.println(" Subaru Outback ");
+                    Counter.Addon();
                     break;
 
                 case 10:
                     System.out.println(" Subaru Forester ");
+                    Counter.Addon();
                     break;
 
 
@@ -84,7 +95,7 @@ public class Main extends Garage{
 
         else if (value==2) {
             System.out.println("Here is a list of our current electric vehicles that you can choose from");
-            System.out.println(Arrays.toString(ElectricVehicles));
+            System.out.println(Arrays.toString(garage.ElectricVehicles));
             System.out.println("Which vehicle would you like?");
 
             int electricChoice = keyboard.nextInt(); ;
@@ -92,17 +103,21 @@ public class Main extends Garage{
             switch(electricChoice){
                 case 1:
                     System.out.println("Tesla Model 3");
+                    Counter.Addon();
                     break;
 
                 case 2:
                     System.out.println("Tesla Model S");
+                    Counter.Addon();
                     break;
 
                 case 3:
                     System.out.println("Tesla Model X");
+                    Counter.Addon();
                     break;
                 default:
                     System.out.println("Invalid Input");
+                    Counter.Addon();
                     break;
 
 
