@@ -8,10 +8,10 @@ public class Counter implements ISeller{
 
     public static String[] VehicleAddOns = {"[1] GPS / Navigation", "[2] Child Seats", "[3] Extra Driver", "[4] Vehicle Insurance"};
 
-    static int GpsPPD = 15;
+    static int GpsPPD = 20;
     static int ChildSeatsPPD = 11;
     static int ExtraDriverPPD = 20;
-    static int VehicleInsurancePPD = 25;
+    static int VehicleInsurancePPD = 30;
     static Scanner scanner = new Scanner(System.in);
 
     public static void Addon(){
