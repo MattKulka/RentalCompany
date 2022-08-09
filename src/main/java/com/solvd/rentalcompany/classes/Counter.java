@@ -24,25 +24,29 @@ public class Counter implements ISeller {
 
         int additional = scanner.nextInt();
 
-        if (additional==1){
-            System.out.println(" GPS / Navigation  is an additional $" + GpsPPD +" per day");
-            System.out.println("Your total is $"+(GpsPPD+ GasVehicles.GasVehiclePPD)+ " per day");
-        }
+        switch(additional){
+            case 1:
+                System.out.println(" GPS / Navigation  is an additional $" + GpsPPD +" per day");
+                System.out.println("Your total is $"+(GpsPPD+ GasVehicles.GasVehiclePPD)+ " per day");
+                break;
 
-        else if (additional==2) {
-            System.out.println(" Child Seats are an additional $" + ChildSeatsPPD +" per day");
-            System.out.println("Your total is $"+(ChildSeatsPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
-        }
+            case 2:
+                System.out.println(" Child Seats are an additional $" + ChildSeatsPPD +" per day");
+                System.out.println("Your total is $"+(ChildSeatsPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
+                break;
 
-        else if (additional == 3) {
-            System.out.println(" An extra Driver is an additional $" + ExtraDriverPPD +" per day");
-            System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
-            System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD));
-        }
+            case 3:
+                System.out.println(" An extra Driver is an additional $" + ExtraDriverPPD +" per day");
+                System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
+                System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD));
+                break;
 
-        else if (additional == 4) {
-            System.out.println(" Vehicle insurance is an additional $" + VehicleInsurancePPD +" per day");
-            System.out.println("Your total is $"+(VehicleInsurancePPD+ GasVehicles.GasVehiclePPD)+ " per day");
+
+            case 4:
+                System.out.println(" Vehicle insurance is an additional $" + VehicleInsurancePPD +" per day");
+                System.out.println("Your total is $"+(VehicleInsurancePPD+ GasVehicles.GasVehiclePPD)+ " per day");
+                break;
+
         }
     }
 
