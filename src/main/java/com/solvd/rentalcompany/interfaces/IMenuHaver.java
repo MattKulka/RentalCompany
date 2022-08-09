@@ -9,7 +9,6 @@ public interface IMenuHaver {
 
      void menu(Scanner scan, Vehicle vehicle);
 
-
 }
 
 
