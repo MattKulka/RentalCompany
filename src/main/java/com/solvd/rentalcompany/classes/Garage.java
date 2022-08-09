@@ -1,4 +1,4 @@
-package main.java.com.solvd.rentalcompany;
+package main.java.com.solvd.rentalcompany.classes;
 
 public class Garage {
 

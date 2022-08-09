@@ -1,6 +1,9 @@
-package main.java.com.solvd.rentalcompany;
+package main.java.com.solvd.rentalcompany.classes;
 
-import javax.swing.*;
+import main.java.com.solvd.rentalcompany.classes.Calender;
+import main.java.com.solvd.rentalcompany.classes.Counter;
+import main.java.com.solvd.rentalcompany.classes.Garage;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

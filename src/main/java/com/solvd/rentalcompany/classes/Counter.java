@@ -1,9 +1,12 @@
-package main.java.com.solvd.rentalcompany;
+package main.java.com.solvd.rentalcompany.classes;
+
+import main.java.com.solvd.rentalcompany.interfaces.ISeller;
+import main.java.com.solvd.rentalcompany.abstractClasses.Buyable;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Counter implements ISeller{
+public class Counter implements ISeller {
 
 
     public static String[] VehicleAddOns = {"[1] GPS / Navigation", "[2] Child Seats", "[3] Extra Driver", "[4] Vehicle Insurance"};

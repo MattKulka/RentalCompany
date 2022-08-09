@@ -1,4 +1,6 @@
-package main.java.com.solvd.rentalcompany;
+package main.java.com.solvd.rentalcompany.interfaces;
+
+import main.java.com.solvd.rentalcompany.abstractClasses.Buyable;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,8 @@
-package main.java.com.solvd.rentalcompany;
+package main.java.com.solvd.rentalcompany.classes;
 
-public class GasVehicles extends Vehicle{
+import main.java.com.solvd.rentalcompany.abstractClasses.Vehicle;
+
+public class GasVehicles extends Vehicle {
 
      static double GasVehiclePPD = 199.99;
 
