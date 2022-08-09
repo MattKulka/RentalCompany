@@ -86,7 +86,9 @@ public class Counter implements ISeller {
     public String toString() {
         return super.toString();
     }
-//ADD INTERFACE OBSERVER TO OBSERVE GARAGE CLASS
+
+
+//[TODO]Matt: ADD INTERFACE OBSERVER TO OBSERVE GARAGE CLASS
 
 }
 

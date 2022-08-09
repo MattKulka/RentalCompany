@@ -30,7 +30,7 @@ public class Main{
 
         if (value==1){
             System.out.println("Here is a list of our current gas vehicles that you can choose from");
-            System.out.println(Arrays.toString(garage.GasVehicles));
+            System.out.println(Arrays.toString(Garage.GasVehicles));
             System.out.println("Which vehicle would you like?");
 
 
@@ -41,7 +41,6 @@ public class Main{
                     System.out.println(" Land Rover Defender ");
                     Counter.Addon();
                     break;
-
 
                 case 2:
                     System.out.println(" Land Rover Sport ");
@@ -98,7 +97,7 @@ public class Main{
 
         else if (value==2) {
             System.out.println("Here is a list of our current electric vehicles that you can choose from");
-            System.out.println(Arrays.toString(garage.ElectricVehicles));
+            System.out.println(Arrays.toString(Garage.ElectricVehicles));
             System.out.println("Which vehicle would you like?");
 
             int electricChoice = keyboard.nextInt(); ;
@@ -118,6 +117,7 @@ public class Main{
                     System.out.println("Tesla Model X");
                     Counter.Addon();
                     break;
+
                 default:
                     System.out.println("Invalid Input");
                     Counter.Addon();

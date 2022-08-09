@@ -11,5 +11,5 @@ public interface ISeller {
     boolean addItem(Buyable item);
     boolean deleteItems(Buyable item);
 
+    //[TODO]Matt: Implement with class Buyable and class Counter
 }
-//Implement with class Buyable and class Counter
