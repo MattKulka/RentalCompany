@@ -5,18 +5,13 @@ import main.java.com.solvd.rentalcompany.abstractClasses.Buyable;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Counter implements ISeller {
-
-
     public static String[] VehicleAddOns = {"[1] GPS / Navigation", "[2] Child Seats", "[3] Extra Driver", "[4] Vehicle Insurance"};
-
     static int GpsPPD = 15;
     static int ChildSeatsPPD = 11;
     static int ExtraDriverPPD = 21;
     static int VehicleInsurancePPD = 25;
     static Scanner scanner = new Scanner(System.in);
-
     public static void Addon(){
 
         System.out.println("Would you like any of our available add ons?");
@@ -28,28 +23,29 @@ public class Counter implements ISeller {
             case 1:
                 System.out.println(" GPS / Navigation  is an additional $" + GpsPPD +" per day");
                 System.out.println("Your total is $"+(GpsPPD+ GasVehicles.GasVehiclePPD)+ " per day");
+                System.out.println("Your Trip total is " );
                 break;
 
             case 2:
                 System.out.println(" Child Seats are an additional $" + ChildSeatsPPD +" per day");
                 System.out.println("Your total is $"+(ChildSeatsPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
+                System.out.println("Your Trip total is " );
                 break;
 
             case 3:
                 System.out.println(" An extra Driver is an additional $" + ExtraDriverPPD +" per day");
                 System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD)+ " per day");
-                System.out.println("Your total is $"+(ExtraDriverPPD+ ElectricVehicles.ElectricVehiclePPD));
+                System.out.println("Your Trip total is " );
                 break;
 
 
             case 4:
                 System.out.println(" Vehicle insurance is an additional $" + VehicleInsurancePPD +" per day");
                 System.out.println("Your total is $"+(VehicleInsurancePPD+ GasVehicles.GasVehiclePPD)+ " per day");
+                System.out.println("Your Trip total is " );
                 break;
-
         }
     }
-
     @Override
     public Buyable buyItem(Buyable item, double money) {
         return null;
