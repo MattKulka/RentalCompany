@@ -1,0 +1,6 @@
+2022-08-09 22:08:08,945 DEBUG m.j.c.s.r.c.Main [main] Some debug log
+2022-08-09 22:08:08,959 INFO m.j.c.s.r.c.Main [main] Person1: [John Gold]
+2022-08-09 22:08:08,967 INFO m.j.c.s.r.c.Main [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-09 22:08:08,976 WARN m.j.c.s.r.c.Main [main] Warning accrued at 2022-08-09T22:08:08.974360800
+2022-08-09 22:08:08,977 ERROR m.j.c.s.r.c.Main [main] Error accrued at 2022-08-09T22:08:08.977362200
+2022-08-09 22:08:08,982 FATAL m.j.c.s.r.c.Main [main] Serious problem with car [Tesla Model S(2020), owned by [John Gold]] accrued at 2022-08-09T22:08:08.978361900
