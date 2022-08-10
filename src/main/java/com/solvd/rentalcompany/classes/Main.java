@@ -4,11 +4,30 @@ import main.java.com.solvd.rentalcompany.classes.Calender;
 import main.java.com.solvd.rentalcompany.classes.Counter;
 import main.java.com.solvd.rentalcompany.classes.Garage;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main{
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args){
+
+        var person1 = new Person("John", "Gold");
+        var person2 = new Person("James", "Miller");
+        // create 2 cars
+        var car1 = new Car("Tesla Model S", 2020, person1);
+        var car2 = new Car("Tesla Model X", 2020, person2);
+        // logging
+        logger.debug("Some debug log");
+        logger.info("Person1: " + person1);
+        logger.info("Car2: " + car2);
+        logger.warn("Warning accrued at " + LocalDateTime.now());
+        logger.error("Error accrued at " + LocalDateTime.now());
+        logger.fatal("Serious problem with car " + car1 + " accrued at " + LocalDateTime.now());
+
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -123,18 +142,13 @@ public class Main{
                     Counter.Addon();
                     break;
 
+             }
 
         }
-
-
-        }
-
-
 
     }
 
-
-        }
+}
 
 
 
