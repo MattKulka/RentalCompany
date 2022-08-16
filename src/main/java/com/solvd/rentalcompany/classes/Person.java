@@ -1,4 +1,4 @@
-package main.java.com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.classes;
 
 public class Person {
     public String name;
@@ -9,8 +9,8 @@ public class Person {
         this.lastName = lastName;
     }
 
+    @Override
     public String toString() {
         return "[" + name + " " + lastName + "]";
     }
 }
-

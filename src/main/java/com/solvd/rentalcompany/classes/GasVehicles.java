@@ -1,10 +1,10 @@
-package main.java.com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.classes;
 
-import main.java.com.solvd.rentalcompany.abstractClasses.Vehicle;
+import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
 public class GasVehicles extends Vehicle {
 
-     static double GasVehiclePPD = 199.99;
+     public static double GasVehiclePPD = 199.99;
 
 
      //fix equals, hashcode, and to string

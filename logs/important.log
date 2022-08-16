@@ -16,3 +16,6 @@
 2022-08-10 15:00:45,766 WARN m.j.c.s.r.c.Main [main] Warning accrued at 2022-08-10T15:00:45.765176800
 2022-08-10 15:00:45,767 ERROR m.j.c.s.r.c.Main [main] Error accrued at 2022-08-10T15:00:45.766175100
 2022-08-10 15:00:45,771 FATAL m.j.c.s.r.c.Main [main] Serious problem with car [Tesla Model S(2020), owned by [John Gold]] accrued at 2022-08-10T15:00:45.767178400
+2022-08-15 12:54:32,377 WARN m.j.c.s.r.c.Main [main] Warning accrued at 2022-08-15T12:54:32.375241200
+2022-08-15 12:54:32,378 ERROR m.j.c.s.r.c.Main [main] Error accrued at 2022-08-15T12:54:32.378242100
+2022-08-15 12:54:32,382 FATAL m.j.c.s.r.c.Main [main] Serious problem with car [Tesla Model S(2020), owned by [John Gold]] accrued at 2022-08-15T12:54:32.378242100

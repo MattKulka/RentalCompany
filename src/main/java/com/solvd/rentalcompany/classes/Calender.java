@@ -1,4 +1,4 @@
-package main.java.com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.classes;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

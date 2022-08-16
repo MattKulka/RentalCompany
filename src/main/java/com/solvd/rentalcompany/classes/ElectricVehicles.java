@@ -1,10 +1,9 @@
-package main.java.com.solvd.rentalcompany.classes;
-
-import main.java.com.solvd.rentalcompany.abstractClasses.Vehicle;
+package com.solvd.rentalcompany.classes;
+import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
 public class ElectricVehicles extends Vehicle {
 
-    static double ElectricVehiclePPD = 199.99;
+    public static double ElectricVehiclePPD = 199.99;
 
     //fix equals, hashcode, and to string (understand better)
     @Override
@@ -12,12 +11,10 @@ public class ElectricVehicles extends Vehicle {
         return super.equals(obj);
     }
 
-
     @Override
     public int hashCode() {
         return super.hashCode();
     }
-
 
     @Override
     public String toString() {

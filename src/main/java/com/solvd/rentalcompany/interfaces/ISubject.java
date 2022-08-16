@@ -1,4 +1,4 @@
-package main.java.com.solvd.rentalcompany.interfaces;
+package com.solvd.rentalcompany.interfaces;
 
 import java.util.ArrayList;
 

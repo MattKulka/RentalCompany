@@ -1,7 +1,7 @@
-package main.java.com.solvd.rentalcompany.classes;
-import main.java.com.solvd.rentalcompany.classes.Calender;
-import main.java.com.solvd.rentalcompany.classes.Counter;
-import main.java.com.solvd.rentalcompany.classes.Garage;
+package com.solvd.rentalcompany.classes;
+import com.solvd.rentalcompany.classes.Car;
+import com.solvd.rentalcompany.classes.Person;
+import com.solvd.rentalcompany.classes.Calender;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -12,11 +12,11 @@ public class Main{
     private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args){
 
-        var person1 = new Person("John", "Gold");
-        var person2 = new Person("James", "Miller");
+        Person person1 = new Person("John", "Gold");
+        Person person2 = new Person("James", "Miller");
         // create 2 cars
-        var car1 = new Car("Tesla Model S", 2020, person1);
-        var car2 = new Car("Tesla Model X", 2020, person2);
+        Car car1 = new Car("Tesla Model S", 2020, person1);
+        Car car2 = new Car("Tesla Model X", 2020, person2);
         // logging
         logger.debug("Some debug log");
         logger.info("Person1: " + person1);
@@ -51,10 +51,3 @@ public class Main{
         }
     }
 }
-
-
-
-
-
-
-
