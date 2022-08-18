@@ -43,11 +43,15 @@ public class Main{
             System.out.println(Arrays.toString(Garage.GasVehicles));
             System.out.println("Which vehicle would you like?");
             Garage.Gascars();
+            System.out.println("Your Trip total is " + days * GasVehicles.GasVehiclePPD);
         }
         else if (value==2) {
             System.out.println("Here is a list of our current electric vehicles that you can choose from");
             System.out.println(Arrays.toString(Garage.ElectricVehicles));
             System.out.println("Which vehicle would you like?");
+            System.out.println("Your Trip total is " + days * ElectricVehicles.ElectricVehiclePPD);
         }
+
+
     }
 }

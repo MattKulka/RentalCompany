@@ -3,7 +3,7 @@ import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
 public class ElectricVehicles extends Vehicle {
 
-    public static double ElectricVehiclePPD = 199.99;
+    public static int ElectricVehiclePPD = 200;
 
     //fix equals, hashcode, and to string (understand better)
     @Override

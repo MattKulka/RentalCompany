@@ -4,7 +4,7 @@ import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
 public class GasVehicles extends Vehicle {
 
-     public static double GasVehiclePPD = 199.99;
+     public static double GasVehiclePPD = 200;
 
 
      //fix equals, hashcode, and to string
