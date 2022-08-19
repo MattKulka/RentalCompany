@@ -49,6 +49,7 @@ public class Main{
             System.out.println("Here is a list of our current electric vehicles that you can choose from");
             System.out.println(Arrays.toString(Garage.ElectricVehicles));
             System.out.println("Which vehicle would you like?");
+            Garage.Electriccars();
             System.out.println("Your Trip total is " + days * ElectricVehicles.ElectricVehiclePPD);
         }
 

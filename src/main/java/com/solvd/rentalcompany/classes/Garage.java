@@ -96,6 +96,5 @@ public class Garage {
                 break;
         }
     }
-
     //[TODO]Matt: ADD INTERFACE SUBJECT TO BE OBSERVED BY GARAGE CLASS
 }

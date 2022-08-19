@@ -8,16 +8,19 @@ public class ElectricVehicles extends Vehicle {
     //fix equals, hashcode, and to string (understand better)
     @Override
     public boolean equals(Object obj) {
+
         return super.equals(obj);
     }
 
     @Override
     public int hashCode() {
+
         return super.hashCode();
     }
 
     @Override
     public String toString() {
+
         return super.toString();
     }
 }
