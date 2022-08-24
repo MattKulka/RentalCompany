@@ -1,7 +1,5 @@
-package com.solvd.rentalcompany.classes;
-import com.solvd.rentalcompany.classes.Car;
-import com.solvd.rentalcompany.classes.Person;
-import com.solvd.rentalcompany.classes.Calender;
+package com.solvd.rentalcompany;
+import com.solvd.rentalcompany.classes.*;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -10,13 +8,17 @@ import java.util.Scanner;
 
 public class Main{
     private static final Logger logger = LogManager.getLogger(Main.class);
+
+    public Main(int x, int y) {
+    }
+
     public static void main(String[] args){
 
-        Person person1 = new Person("John", "Gold");
+        Person person1 = new Person("Matt", "Kulka");
         Person person2 = new Person("James", "Miller");
         // create 2 cars
-        Car car1 = new Car("Tesla Model S", 2020, person1);
-        Car car2 = new Car("Tesla Model X", 2020, person2);
+        Car car1 = new Car("Ford Bronco", 2022, person1);
+        Car car2 = new Car("Tesla Model X", 2021, person2);
         // logging
         logger.debug("Some debug log");
         logger.info("Person1: " + person1);
