@@ -1,4 +1,6 @@
-package com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.services;
+
+import com.solvd.rentalcompany.services.Counter;
 
 import java.util.Scanner;
 public class Garage {
@@ -16,52 +18,52 @@ public class Garage {
         switch (gasChoice) {
             case 1:
                 System.out.println(" Land Rover Defender ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 2:
                 System.out.println(" Land Rover Sport ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 3:
                 System.out.println(" Jeep Wrangler ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 4:
                 System.out.println(" Jeep Compass ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 5:
                 System.out.println(" Jeep Wagoneer ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 6:
                 System.out.println(" Jeep Gladiator ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 7:
                 System.out.println(" Ford Bronco ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 8:
                 System.out.println(" Ford Ranger ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 9:
                 System.out.println(" Subaru Outback ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 10:
                 System.out.println(" Subaru Forester ");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             default:
@@ -77,22 +79,22 @@ public class Garage {
         switch (electricChoice) {
             case 1:
                 System.out.println("Tesla Model 3");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 2:
                 System.out.println("Tesla Model S");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             case 3:
                 System.out.println("Tesla Model X");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
 
             default:
                 System.out.println("Invalid Input");
-                com.solvd.rentalcompany.classes.Counter.Addon();
+                Counter.Addon();
                 break;
         }
     }

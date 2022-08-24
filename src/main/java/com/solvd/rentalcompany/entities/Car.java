@@ -1,4 +1,4 @@
-package com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.entities;
 
 public class Car {
     public String model;

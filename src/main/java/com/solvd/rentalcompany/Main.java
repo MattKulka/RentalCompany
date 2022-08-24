@@ -1,5 +1,7 @@
 package com.solvd.rentalcompany;
-import com.solvd.rentalcompany.classes.*;
+import com.solvd.rentalcompany.entities.*;
+import com.solvd.rentalcompany.services.Calender;
+import com.solvd.rentalcompany.services.Garage;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;

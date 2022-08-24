@@ -1,4 +1,4 @@
-package com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.entities;
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
 import java.lang.Math;
 

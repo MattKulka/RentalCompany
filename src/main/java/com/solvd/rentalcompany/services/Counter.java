@@ -1,8 +1,9 @@
-package com.solvd.rentalcompany.classes;
+package com.solvd.rentalcompany.services;
 
 import com.solvd.rentalcompany.Main;
 import com.solvd.rentalcompany.abstractClasses.Buyable;
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
+import com.solvd.rentalcompany.entities.GasVehicles;
 import com.solvd.rentalcompany.interfaces.ISeller;
 
 import java.util.Arrays;
