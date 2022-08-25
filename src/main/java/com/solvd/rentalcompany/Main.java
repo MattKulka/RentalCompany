@@ -1,5 +1,8 @@
 package com.solvd.rentalcompany;
-import com.solvd.rentalcompany.entities.*;
+import com.solvd.rentalcompany.entities.Car;
+import com.solvd.rentalcompany.entities.ElectricVehicles;
+import com.solvd.rentalcompany.entities.GasVehicles;
+import com.solvd.rentalcompany.entities.Person;
 import com.solvd.rentalcompany.services.Calender;
 import com.solvd.rentalcompany.services.Garage;
 import org.apache.logging.log4j.LogManager;
