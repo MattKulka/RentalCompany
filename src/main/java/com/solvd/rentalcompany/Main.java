@@ -15,10 +15,10 @@ public class Main{
 
         Person person1 = new Person("Matt", "Kulka");
         Person person2 = new Person("James", "Miller");
-        // create 2 cars
+
         Car car1 = new Car("Ford Bronco", 2022, person1);
         Car car2 = new Car("Tesla Model X", 2021, person2);
-        // logging
+
         logger.debug("Some debug log");
         logger.info("Person1: " + person1);
         logger.info("Car2: " + car2);
