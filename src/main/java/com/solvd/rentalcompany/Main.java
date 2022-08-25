@@ -4,6 +4,7 @@ import com.solvd.rentalcompany.entities.ElectricVehicles;
 import com.solvd.rentalcompany.entities.GasVehicles;
 import com.solvd.rentalcompany.entities.Person;
 import com.solvd.rentalcompany.services.Calender;
+import com.solvd.rentalcompany.services.Counter;
 import com.solvd.rentalcompany.services.Garage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,32 +34,8 @@ public class Main{
         Calender calender = new Calender(8,2,2022);
         Garage garage = new Garage();
 
-        System.out.println("Welcome to Matts Super Awesome Vehicle Rental");
-        System.out.print("How many days would you like to rent one of our vehicles for?");
-        int days = keyboard.nextInt();
+        Counter.welcomeMessage();
+        Counter.rentalDays();
 
-        System.out.println("For a " + days + " day rental we have many different options for you to choose from, what type of vehicle are you interested in renting?");
-        System.out.println("[1] Gas Vehicles" );
-        System.out.println("[2] Electric Vehicles");
-        int value = keyboard.nextInt();
-
-        switch (value) {
-
-            case 1:
-                System.out.println("Here is a list of our current gas vehicles that you can choose from");
-                System.out.println(Arrays.toString(Garage.GasVehicles));
-                System.out.println("Which vehicle would you like?");
-                Garage.Gascars();
-                System.out.println("Your Trip total is " + days * GasVehicles.GasVehiclePPD);
-                break;
-
-
-            case 2:
-                System.out.println("Here is a list of our current electric vehicles that you can choose from");
-                System.out.println(Arrays.toString(Garage.ElectricVehicles));
-                System.out.println("Which vehicle would you like?");
-                Garage.Electriccars();
-                System.out.println("Your Trip total is " + days * ElectricVehicles.ElectricVehiclePPD);
-        }
     }
 }
