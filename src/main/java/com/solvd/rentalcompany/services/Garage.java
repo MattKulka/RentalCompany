@@ -9,7 +9,6 @@ public class Garage {
             " [5] Jeep Wagoneer", " [6] Jeep Gladiator", " [7] Ford Bronco", " [8] Ford Ranger",
             " [9] Subaru Outback", " [10] Subaru Forester"};
 
-
     public static String[] ElectricVehicles = {"[1] Tesla Model 3", "[2] Tesla Model S", "[3] Tesla Model X"};
     public static void Gascars() {
 
@@ -98,5 +97,4 @@ public class Garage {
                 break;
         }
     }
-    //[TODO]Matt: ADD INTERFACE SUBJECT TO BE OBSERVED BY GARAGE CLASS
 }

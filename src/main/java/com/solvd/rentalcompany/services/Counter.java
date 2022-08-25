@@ -1,11 +1,9 @@
 package com.solvd.rentalcompany.services;
-
 import com.solvd.rentalcompany.Main;
 import com.solvd.rentalcompany.abstractClasses.Buyable;
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
 import com.solvd.rentalcompany.entities.GasVehicles;
 import com.solvd.rentalcompany.interfaces.ISeller;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -13,15 +11,6 @@ public class Counter extends Main implements ISeller {
 
     public Vehicle vehicle;
 
-    public Counter(int x, int y) {
-        super(x, y);
-    }
-
-    public Counter(int x, int y, Vehicle vehicle) {
-        super(x, y);
-        this.vehicle = vehicle;
-
-    }
     public static String[] VehicleAddOns = {"[1] GPS / Navigation", "[2] Child Seats", "[3] Extra Driver", "[4] Vehicle Insurance"};
 
     static int GpsPPD = 15;
@@ -112,7 +101,3 @@ public class Counter extends Main implements ISeller {
         return null;
     }
 }
-
-
-
-

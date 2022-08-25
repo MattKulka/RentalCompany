@@ -2,23 +2,12 @@ package com.solvd.rentalcompany.entities;
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
 import java.lang.Math;
 
-public class ElectricVehicles extends Vehicle {
+public class ElectricVehicles{
 
     public Vehicle vehicle;
 
-    public ElectricVehicles(int x, int y) {
-        super(x, y);
-    }
-
-    public ElectricVehicles(int x, int y, Vehicle vehicle) {
-        super(x, y);
-        this.vehicle = vehicle;
-
-    }
-
     public static int ElectricVehiclePPD = 200;
 
-    //fix equals, hashcode, and to string (understand better)
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof ElectricVehicles)) {
@@ -41,8 +30,5 @@ public class ElectricVehicles extends Vehicle {
         String Vehicles = null;
         final String s = null;
         return null;
-        
-
-
     }
 }

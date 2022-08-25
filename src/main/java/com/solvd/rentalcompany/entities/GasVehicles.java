@@ -2,18 +2,10 @@ package com.solvd.rentalcompany.entities;
 
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
-public class GasVehicles extends Vehicle {
+public class GasVehicles {
 
      public Vehicle vehicle;
 
-     public GasVehicles(int x, int y) {
-          super(x, y);
-     }
-
-     public GasVehicles(int x, int y, Vehicle vehicle) {
-          super(x, y);
-          this.vehicle = vehicle;
-     }
 
      public static double GasVehiclePPD = 200;
 
@@ -39,6 +31,5 @@ public class GasVehicles extends Vehicle {
           String Vehicles = null;
           final String s = null;
           return null;
-
      }
 }
