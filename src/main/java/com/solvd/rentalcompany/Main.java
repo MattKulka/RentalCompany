@@ -2,17 +2,14 @@ package com.solvd.rentalcompany;
 import com.solvd.rentalcompany.entities.*;
 import com.solvd.rentalcompany.services.Calender;
 import com.solvd.rentalcompany.services.Garage;
-import org.apache.log4j.Logger;
-import org.apache.log4j.LogManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main{
     private static final Logger logger = LogManager.getLogger(Main.class);
-
-    public Main(int x, int y) {
-    }
 
     public static void main(String[] args){
 
@@ -42,21 +39,23 @@ public class Main{
         System.out.println("[2] Electric Vehicles");
         int value = keyboard.nextInt();
 
-        if (value==1){
-            System.out.println("Here is a list of our current gas vehicles that you can choose from");
-            System.out.println(Arrays.toString(Garage.GasVehicles));
-            System.out.println("Which vehicle would you like?");
-            Garage.Gascars();
-            System.out.println("Your Trip total is " + days * GasVehicles.GasVehiclePPD);
-        }
-        else if (value==2) {
-            System.out.println("Here is a list of our current electric vehicles that you can choose from");
-            System.out.println(Arrays.toString(Garage.ElectricVehicles));
-            System.out.println("Which vehicle would you like?");
-            Garage.Electriccars();
-            System.out.println("Your Trip total is " + days * ElectricVehicles.ElectricVehiclePPD);
-        }
+        switch (value) {
+
+            case 1:
+                System.out.println("Here is a list of our current gas vehicles that you can choose from");
+                System.out.println(Arrays.toString(Garage.GasVehicles));
+                System.out.println("Which vehicle would you like?");
+                Garage.Gascars();
+                System.out.println("Your Trip total is " + days * GasVehicles.GasVehiclePPD);
+                break;
 
 
+            case 2:
+                System.out.println("Here is a list of our current electric vehicles that you can choose from");
+                System.out.println(Arrays.toString(Garage.ElectricVehicles));
+                System.out.println("Which vehicle would you like?");
+                Garage.Electriccars();
+                System.out.println("Your Trip total is " + days * ElectricVehicles.ElectricVehiclePPD);
+        }
     }
 }
