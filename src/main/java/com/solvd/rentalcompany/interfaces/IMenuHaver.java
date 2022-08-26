@@ -1,6 +1,6 @@
-package main.java.com.solvd.rentalcompany.interfaces;
+package com.solvd.rentalcompany.interfaces;
 
-import main.java.com.solvd.rentalcompany.abstractClasses.Vehicle;
+import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
 import java.util.Scanner;
 
@@ -8,7 +8,4 @@ import java.util.Scanner;
 public interface IMenuHaver {
 
      void menu(Scanner scan, Vehicle vehicle);
-
 }
-
-

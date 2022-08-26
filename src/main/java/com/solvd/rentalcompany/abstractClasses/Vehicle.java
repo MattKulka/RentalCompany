@@ -1,12 +1,9 @@
-package main.java.com.solvd.rentalcompany.abstractClasses;
+package com.solvd.rentalcompany.abstractClasses;
 
-public abstract class Vehicle{
+public abstract class Vehicle {
 
     double VehiclePPD;
 
-
-
-//[TODO]Matt: Implement Vehicle Abstract class with Gas and electric vehicle classes
+    public Vehicle(int x, int y) {
+    }
 }
-
-
