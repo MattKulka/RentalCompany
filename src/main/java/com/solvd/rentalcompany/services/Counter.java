@@ -52,6 +52,9 @@ public class Counter extends Main implements ISeller {
                 System.out.println(Arrays.toString(Garage.ElectricVehicles));
                 System.out.println("Which vehicle would you like?");
                 Garage.electricChoice();
+
+            default:
+                break;
         }
 
         System.out.println("Would you like any of our available add ons?");
@@ -86,6 +89,9 @@ public class Counter extends Main implements ISeller {
                 System.out.println(" Vehicle insurance is an additional $" + VehicleInsurancePPD + " per day");
                 System.out.println("Your total for the vehicle and vehicle insurance is $" + InsuranceCarPPD + " per day");
                 System.out.println("This makes your trip total $" + days * InsuranceCarPPD );
+                break;
+
+            default:
                 break;
         }
     }
