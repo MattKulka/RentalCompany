@@ -21,17 +21,13 @@ public class Counter extends Main implements ISeller {
     static Scanner scanner = new Scanner(System.in);
 
     public static void welcomeMessage(){
-
         System.out.println("Welcome to Matts Super Awesome Vehicle Rental");
         System.out.print("How many days would you like to rent one of our vehicles for?");
     }
 
     public static void rentalDays() {
-
         Scanner keyboard = new Scanner(System.in);
-
         int days = keyboard.nextInt();
-
         System.out.println("For a " + days + " day rental we have many different options for you to choose from, what type of vehicle are you interested in renting?");
         System.out.println("[1] Gas Vehicles");
         System.out.println("[2] Electric Vehicles");
@@ -52,6 +48,7 @@ public class Counter extends Main implements ISeller {
                 System.out.println(Arrays.toString(Garage.ElectricVehicles));
                 System.out.println("Which vehicle would you like?");
                 Garage.electricChoice();
+                break;
 
             default:
                 break;

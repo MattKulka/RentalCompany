@@ -12,7 +12,6 @@ public class Garage {
     public static String[] ElectricVehicles = {"[1] Tesla Model 3", "[2] Tesla Model S", "[3] Tesla Model X"};
 
     public static void gasChoice() {
-
         Scanner keyboard = new Scanner(System.in);
         int gasOption = keyboard.nextInt();
         switch (gasOption) {
@@ -62,7 +61,6 @@ public class Garage {
     }
 
     public static void electricChoice() {
-
         Scanner Scanner = new Scanner(System.in);
         int electricOption = Scanner.nextInt();
         switch (electricOption) {

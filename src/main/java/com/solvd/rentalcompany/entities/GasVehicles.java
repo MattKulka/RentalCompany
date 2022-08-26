@@ -2,12 +2,16 @@ package com.solvd.rentalcompany.entities;
 
 import com.solvd.rentalcompany.abstractClasses.Vehicle;
 
-public class GasVehicles {
+public class GasVehicles extends Vehicle{
 
      public Vehicle vehicle;
 
 
      public static double GasVehiclePPD = 200;
+
+     public GasVehicles(int x, int y) {
+          super(x, y);
+     }
 
      @Override
      public boolean equals(Object obj) {
