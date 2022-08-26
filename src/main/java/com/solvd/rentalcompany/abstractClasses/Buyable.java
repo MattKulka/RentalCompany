@@ -4,4 +4,3 @@ public abstract class Buyable{
     double price;
     int stock;
 }
-

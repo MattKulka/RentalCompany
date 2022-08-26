@@ -7,5 +7,3 @@ public abstract class Vehicle {
     public Vehicle(int x, int y) {
     }
 }
-
-

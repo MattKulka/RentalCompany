@@ -8,7 +8,4 @@ import java.util.Scanner;
 public interface IMenuHaver {
 
      void menu(Scanner scan, Vehicle vehicle);
-
 }
-
-

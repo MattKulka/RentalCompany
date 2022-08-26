@@ -33,9 +33,7 @@ public class Main{
         Scanner keyboard = new Scanner(System.in);
         Calender calender = new Calender(8,2,2022);
         Garage garage = new Garage();
-
         Counter.welcomeMessage();
         Counter.rentalDays();
-
     }
 }

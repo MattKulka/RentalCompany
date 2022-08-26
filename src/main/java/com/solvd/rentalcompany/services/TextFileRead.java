@@ -20,5 +20,4 @@ public class TextFileRead{
             e.printStackTrace();
         }
     }
-
 }
