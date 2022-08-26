@@ -23,5 +23,8 @@ public class Generic{
 
         System.out.println("\nArray characterArray contains:");
         printArray(charArray);
+
+        Object ref = null;
+        ref.toString(); // throws a NullPointerException
     }
 }
